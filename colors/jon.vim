@@ -48,6 +48,7 @@ hi StorageClass guifg=#526991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=
 hi Todo guifg=#f2f2ff guibg=#bdbdbb guisp=#bdbdbb gui=NONE ctermfg=189 ctermbg=250 cterm=NONE
 hi Special guifg=#e3a191 guibg=NONE guisp=NONE gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#6e6e6e guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
+hi CursorLineNr guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=10 ctermbg=NONE cterm=NONE
 hi StatusLine guifg=#111f24 guibg=#bdbdbb guisp=#bdbdbb gui=bold ctermfg=235 ctermbg=250 cterm=bold
 hi Label guifg=#bdbdbb guibg=NONE guisp=NONE gui=bold ctermfg=250 ctermbg=NONE cterm=bold
 hi PMenuSel guifg=#111f24 guibg=#bdbdbb guisp=#bdbdbb gui=NONE ctermfg=235 ctermbg=250 cterm=NONE
@@ -58,7 +59,7 @@ hi SpellRare guifg=#f2f2ff guibg=#111f24 guisp=#111f24 gui=underline ctermfg=189
 hi Comment guifg=#626b70 guibg=NONE guisp=NONE gui=italic ctermfg=242 ctermbg=NONE cterm=NONE
 hi Character guifg=#9da4a8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Float guifg=#9da4a8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi Number guifg=#9da4a8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi Number guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#9da4a8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Operator guifg=#bdbdbb guibg=NONE guisp=NONE gui=bold ctermfg=250 ctermbg=NONE cterm=bold
 hi CursorLine guifg=NONE guibg=#1e3030 guisp=#1e3030 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
