@@ -1,0 +1,52 @@
+{
+  "_from": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball",
+  "_id": "red-wavy-underline@0.3.3",
+  "_inBundle": false,
+  "_integrity": "sha512-9/qt0QM9I58f9Dr8elycX0C3TngCIzNum10eQQlbbUW2y99vNQY3BEAiR3jV4Wh39JKqjpB8ICcT/r+afmdxlg==",
+  "_location": "/red-wavy-underline",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball",
+  "_shasum": "5ce62b1d80d0db15aa2ce65e5429e7605abe5516",
+  "_spec": "https://www.atom.io/api/packages/red-wavy-underline/versions/0.3.3/tarball",
+  "_where": "/private/var/folders/8s/qlfkb5417jq6gstvsq7jxz140000gn/T/apm-install-dir-119117-61126-1afs1yk.apnw",
+  "author": {
+    "name": "Lee Dohm",
+    "email": "lee@lee-dohm.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lee-dohm/red-wavy-underline/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Changes the style of underline used by the spell-check package",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/lee-dohm/red-wavy-underline#readme",
+  "keywords": [
+    "red",
+    "wavy",
+    "underline",
+    "style"
+  ],
+  "license": "MIT",
+  "main": "./lib/red-wavy-underline",
+  "name": "red-wavy-underline",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-dohm/red-wavy-underline.git"
+  },
+  "version": "0.3.3"
+}

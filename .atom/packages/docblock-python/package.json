@@ -1,0 +1,70 @@
+{
+  "_from": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball",
+  "_id": "docblock-python@0.13.0",
+  "_inBundle": false,
+  "_integrity": "sha512-8/fHF6UnCfFwr3954BTGBJzlaij7D8G0FhFReT2lAmtOe077NfQrv4tzvvEaeKeqejaoffXv/ISqGRVfnLYaSg==",
+  "_location": "/docblock-python",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball",
+  "_shasum": "ba8e5c6b7315a89846a642966cc2a6aa9c1e8184",
+  "_spec": "https://www.atom.io/api/packages/docblock-python/versions/0.13.0/tarball",
+  "_where": "/private/var/folders/8s/qlfkb5417jq6gstvsq7jxz140000gn/T/apm-install-dir-119228-69819-1v2ey6e.somy",
+  "bugs": {
+    "url": "https://github.com/spadarian/docblock-python/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^4.0.1"
+  },
+  "deprecated": false,
+  "description": "Inserts documentation blocks for python functions",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/spadarian/docblock-python#readme",
+  "keywords": [
+    "python",
+    "documentation",
+    "autocomplete",
+    "linter"
+  ],
+  "license": "MIT",
+  "main": "./lib/docblock-python",
+  "name": "docblock-python",
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spadarian/docblock-python.git"
+  },
+  "scripts": {
+    "lint": "eslint ./spec/ ./lib/",
+    "pretest": "npm run lint",
+    "test": "atom --test ./spec/"
+  },
+  "version": "0.13.0"
+}

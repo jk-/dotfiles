@@ -1,0 +1,71 @@
+{
+  "style": {
+    "title": "Style",
+    "type": "string",
+    "default": "numpy",
+    "order": 0,
+    "enum": ["numpy", "google", "sphinx", "epytext"],
+    "description": "Currently we support __*numpy*__ style, based on [A Guide to NumPy/SciPy Documentation](https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt), __*google*__ style, based on [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html), __*sphinx*__ style, based on [an example from their documentation](http://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#info-field-lists), and __*epytext*__ style, based on the [official documentation](http://epydoc.sourceforge.net/manual-epytext.html)."
+  },
+  "indent": {
+    "title": "Initial indent",
+    "type": "boolean",
+    "default": true,
+    "order": 1
+  },
+  "parameters": {
+    "title": "Describe parameters",
+    "type": "boolean",
+    "default": true,
+    "order": 2
+  },
+  "use_defaults": {
+    "title": "Add default value to parameter description",
+    "type": "boolean",
+    "default": false,
+    "order": 3
+  },
+  "returns": {
+    "title": "Describe returned value",
+    "type": "boolean",
+    "default": true,
+    "order": 4
+  },
+  "raises": {
+    "title": "Describe raised exceptions",
+    "type": "boolean",
+    "default": false,
+    "order": 5
+  },
+  "examples": {
+    "title": "Should illustrate how to use the function/class (doctest)",
+    "type": "boolean",
+    "default": false,
+    "order": 6
+  },
+  "types": {
+    "title": "Parameter and attribute type",
+    "type": "object",
+    "order": 7,
+    "properties": {
+      "use_types": {
+        "title": "Show types",
+        "type": "boolean",
+        "default": true,
+        "order": 0
+      },
+      "separate_types": {
+        "title": "Show types in a different line (sphinx style only)",
+        "type": "boolean",
+        "default": false,
+        "order": 1
+      }
+    }
+  },
+  "lint": {
+    "title": "Enable lint to show missing documentation (experimental)",
+    "type": "boolean",
+    "default": false,
+    "order": 8
+  }
+}
